@@ -10,17 +10,17 @@ namespace ChatApp.UI.ConsoleApp
 
         public LoginConsoleApp()
         {
-            _usuarioService = new UsuarioService(); 
+            _usuarioService = new UsuarioService();
         }
 
         public void ExibirTelaDeLogin()
         {
             Console.WriteLine("Bem-vindo ao ChatApp!");
             Console.Write("Digite seu email: ");
-            string email = Console.ReadLine();  
+            string email = Console.ReadLine();
 
             Console.Write("Digite sua senha: ");
-            string senha = Console.ReadLine();  
+            string senha = Console.ReadLine();
 
             var usuario = _usuarioService.AutenticarUsuario(email, senha);
 

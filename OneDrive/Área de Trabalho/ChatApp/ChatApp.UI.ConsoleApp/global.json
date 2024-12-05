@@ -1,3 +1,4 @@
+global.json
 {
   "sdk": {
     "version": "9.0.100"
