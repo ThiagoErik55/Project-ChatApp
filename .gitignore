@@ -1,0 +1,62 @@
+# Ignorar arquivos e pastas do sistema
+.vs/
+.idea/
+.vscode/
+*.log
+*.bak
+*.tmp
+
+# Ignorar arquivos do sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar pastas de configuração de IDEs
+.vscode/
+.gradle/
+.android/
+.sublime-text-3/
+
+# Arquivos específicos
+-1.14-windows.xml
+
+# Diretórios padrão
+.BigNox/
+.VirtualBox/
+.android/
+.arduinoIDE/
+.bash_history
+.config/
+.dotnet/
+.gradle/
+.idlerc/
+.ipython/
+.lesshst
+.node_repl_history
+.nuget/
+.packettracer/
+.rest-client/
+.ssh/
+.templateengine/
+.vs/
+.vscode/
+AppData/
+Cisco Packet Tracer 8.2.2/
+Contacts/
+Creative Cloud Files/
+Documents/
+Downloads/
+Favorites/
+Links/
+Microsoft/
+Music/
+NTUSER.DAT*
+
+# subdiretórios
+../../Aplicativos/
+../../Documentos/
+../*.lnk
+../*.zip
+../*.docx
+../*.pdf
+../*.xlsx

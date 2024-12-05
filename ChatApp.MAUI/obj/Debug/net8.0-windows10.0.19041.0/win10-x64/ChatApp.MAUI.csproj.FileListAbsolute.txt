@@ -1,0 +1,12 @@
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatApp.MAUI.csproj.AssemblyReference.cache
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatApp.MAUI.GeneratedMSBuildEditorConfig.editorconfig
