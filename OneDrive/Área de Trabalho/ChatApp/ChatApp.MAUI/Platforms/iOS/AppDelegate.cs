@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace ChatApp.MAUI
+namespace ChatApp.MAUI.Platforms.iOS
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

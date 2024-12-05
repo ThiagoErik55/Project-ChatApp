@@ -1,19 +1,19 @@
-namespace ChatApp.Business.Services
+public class UsuarioService
 {
-    public class UsuarioService
+    private readonly ChatAppDbContext _context;
+
+    public UsuarioService(ChatAppDbContext context)
     {
-        private readonly ChatAppDbContext _context;
+        _context = context;
+    }
 
-        public UsuarioService(ChatAppDbContext context)
+    public Usuario AutenticarUsuario(string email, string senha)
+    {
+        var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == email);
+        if (usuario != null && usuario.SenhaHash == senha) 
         {
-            _context = context;
+            return usuario;
         }
-
-        public Usuario AutenticarUsuario(string email, string senha)
-        {
-            return _context.Usuarios.FirstOrDefault(u => u.Email == email && u.SenhaHash == senha);
-        }
-
-        // Outros métodos de serviço para gerenciar usuários
+        return null;
     }
 }

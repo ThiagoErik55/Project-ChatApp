@@ -1,21 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ChatApp.Persistence.Context;
+﻿using ChatApp.UI.ConsoleApp;
 
-namespace ChatApp.UI.ConsoleApp
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<ChatAppDbContext>();
-            optionsBuilder.UseSqlite("Data Source=chatapp.db");
-
-            using (var context = new ChatAppDbContext(optionsBuilder.Options))
-            {
-                context.Database.EnsureCreated();
-
-                Console.WriteLine("Banco de dados criado ou verificado!");
-            }
-        }
+        var loginApp = new LoginConsoleApp();
+        loginApp.ExibirTelaDeLogin();
     }
 }

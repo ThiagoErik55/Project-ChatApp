@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace ChatApp.MAUI
+namespace ChatApp.MAUI.Platforms.iOS
 {
     public class Program
     {
