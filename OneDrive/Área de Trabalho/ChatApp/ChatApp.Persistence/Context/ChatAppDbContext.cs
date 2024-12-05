@@ -3,7 +3,7 @@ using ChatApp.Model.Users;
 using ChatApp.Model.Messages;
 using ChatApp.Model.Conversations;
 
-namespace ChatApp.Persistence.Context
+namespace ChatApp.Persistence
 {
     public class ChatAppDbContext : DbContext
     {

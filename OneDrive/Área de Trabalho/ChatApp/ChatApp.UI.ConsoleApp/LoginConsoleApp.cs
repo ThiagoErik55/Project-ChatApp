@@ -1,5 +1,6 @@
+using ChatApp.Persistence;
+using Microsoft.EntityFrameworkCore;
 using ChatApp.Business.Services;
-using ChatApp.Model.Users;
 using System;
 
 namespace ChatApp.UI.ConsoleApp
@@ -10,7 +11,13 @@ namespace ChatApp.UI.ConsoleApp
 
         public LoginConsoleApp()
         {
-            _usuarioService = new UsuarioService();
+            var options = new DbContextOptionsBuilder<ChatAppDbContext>()
+                .UseSqlite("Data Source=chatapp.db")
+                .Options;
+
+            var context = new ChatAppDbContext(options);
+
+            _usuarioService = new UsuarioService(context);
         }
 
         public void ExibirTelaDeLogin()
@@ -33,5 +40,11 @@ namespace ChatApp.UI.ConsoleApp
                 Console.WriteLine("Usuário ou senha inválidos. Tente novamente.");
             }
         }
+
+        //public static void Main(string[] args)
+        //{
+        //    var app = new LoginConsoleApp();
+        //    app.ExibirTelaDeLogin();
+        //}
     }
 }

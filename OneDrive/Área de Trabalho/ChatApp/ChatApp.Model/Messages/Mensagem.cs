@@ -1,3 +1,5 @@
+using ChatApp.Model.Users;
+
 namespace ChatApp.Model.Messages
 {
     public class Mensagem

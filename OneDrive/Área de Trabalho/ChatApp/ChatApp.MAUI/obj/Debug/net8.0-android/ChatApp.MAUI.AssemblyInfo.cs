@@ -14,12 +14,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatApp.MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cc86178d5cf9e9c27a0920381236d8624b887d69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd537533d6716c177b9c76a9ff3adf31d1f6d733")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatApp.MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatApp.MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("android0.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("android21.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

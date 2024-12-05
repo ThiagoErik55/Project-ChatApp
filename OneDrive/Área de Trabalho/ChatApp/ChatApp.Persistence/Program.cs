@@ -1,13 +1,12 @@
-﻿using ChatApp.Persistence.Context;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ChatApp.Persistence;
 
-var builder = WebApplication.CreateBuilder(args);
+var options = new DbContextOptionsBuilder<ChatAppDbContext>()
+    .UseSqlite("Data Source=chatapp.db")
+    .Options;
 
-builder.Services.AddDbContext<ChatAppDbContext>(options =>
-    options.UseSqlite("Data Source=chatapp.db"));
+using var context = new ChatAppDbContext(options);
+context.Database.EnsureCreated();
 
-var app = builder.Build();
+Console.WriteLine("Banco de dados criado com sucesso!");
 
-app.MapGet("/", () => "Hello World!");
-
-app.Run();
