@@ -1,10 +1,13 @@
-﻿using ChatApp.UI.ConsoleApp;
+﻿using System;
 
-class Program
+namespace ChatApp.UI.ConsoleApp
 {
-    static void Main(string[] args)
+    class Program
     {
-        var loginApp = new LoginConsoleApp();
-        loginApp.ExibirTelaDeLogin();
+        static void Main(string[] args)
+        {
+            var loginApp = new LoginConsoleApp();
+            loginApp.ExibirTelaDeLogin();
+        }
     }
 }

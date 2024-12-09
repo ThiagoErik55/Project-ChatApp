@@ -9,6 +9,7 @@
       "ChatApp.UI.ConsoleApp/1.0.0": {
         "dependencies": {
           "ChatApp.Business": "1.0.0",
+          "ChatApp.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0"
@@ -1316,10 +1317,7 @@
           "ChatApp.Model": "1.0.0",
           "ChatApp.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.83",
-          "Microsoft.NET.Test.Sdk": "17.12.0",
-          "System.Console": "4.3.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0"
         },
         "runtime": {
           "ChatApp.Business.dll": {
@@ -1331,10 +1329,7 @@
       "ChatApp.Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.83",
-          "Microsoft.NET.Test.Sdk": "17.12.0",
-          "System.Console": "4.3.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0"
         },
         "runtime": {
           "ChatApp.Model.dll": {

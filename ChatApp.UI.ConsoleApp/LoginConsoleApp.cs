@@ -37,7 +37,7 @@ namespace ChatApp.UI.ConsoleApp
             }
             else
             {
-                Console.WriteLine("Usuário ou senha inválidos. Tente novamente.");
+                Console.WriteLine("Usuï¿½rio ou senha invï¿½lidos. Tente novamente.");
             }
         }
     }

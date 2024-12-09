@@ -34,15 +34,15 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-android": {
+          "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {}
           },
-          "net8.0-ios": {
+          "net8.0-ios18.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {}
           },
-          "net8.0-maccatalyst": {
+          "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
@@ -63,7 +63,7 @@
         }
       },
       "frameworks": {
-        "net8.0-android": {
+        "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -86,11 +86,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )",
+              "autoReferenced": true
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -113,13 +119,16 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios": {
+        "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -142,11 +151,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )",
+              "autoReferenced": true
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -169,13 +184,16 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst": {
+        "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -198,11 +216,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )",
+              "autoReferenced": true
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -214,6 +238,7 @@
             }
           },
           "imports": [
+            "xamarinios10",
             "net461",
             "net462",
             "net47",
@@ -225,6 +250,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -254,11 +282,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[8.0.83, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -294,7 +322,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
+        "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-x64": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
         }
       }
     }

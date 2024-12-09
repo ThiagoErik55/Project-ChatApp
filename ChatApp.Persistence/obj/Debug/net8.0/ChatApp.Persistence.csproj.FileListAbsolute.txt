@@ -1,7 +1,5 @@
 C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\.msCoverageSourceRootsMapping_ChatApp.Persistence
 C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\testhost.dll
-C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\ChatApp.Model.deps.json
-C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\ChatApp.Model.runtimeconfig.json
 C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\testhost.exe
 C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\ChatApp.Persistence.deps.json
 C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.Persistence\bin\Debug\net8.0\ChatApp.Persistence.runtimeconfig.json
